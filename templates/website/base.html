@@ -215,7 +215,7 @@
                                             </a>
                                         </div>
                                         <div class="dropdown-grid-item last-item bg-light radius-right-side">
-                                            <a href="#"><img src="assets/img/feature-img3.jpg" alt="add" class="img-fluid rounded-custom" /></a>
+                                            <a href="#"><img src="{% static 'assets/img/feature-img3.jpg' %}" alt="add" class="img-fluid rounded-custom" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -322,7 +322,7 @@
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop">
                         <div class="offcanvas-header d-flex align-items-center mt-4">
                             <a href="index.html" class="d-flex align-items-center mb-md-0 text-decoration-none">
-                                <img src="assets/img/logo-color.png" alt="logo" class="img-fluid ps-2" />
+                                <img src="{% static 'assets/img/logo-color.png' %}" alt="logo" class="img-fluid ps-2" />
                             </a>
                             <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close">
                                 <i class="far fa-close"></i>
@@ -470,7 +470,7 @@
                                                 </a>
                                             </div>
                                             <div class="dropdown-grid-item last-item bg-light radius-right-side">
-                                                <a href="#"><img src="assets/img/feature-img3.jpg" alt="add" class="img-fluid rounded-custom" /></a>
+                                                <a href="#"><img src="{% static 'assets/img/feature-img3.jpg' %}" alt="add" class="img-fluid rounded-custom" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -580,7 +580,7 @@
         <!--header section end-->
 
         <!--hero section start-->
-        <section class="hero-section ptb-120 text-white bg-gradient" style="background: url('assets/img/hero-dot-bg.png')no-repeat center right">
+        <section class="hero-section ptb-120 text-white bg-gradient" style="background: url('{% static 'assets/img/hero-dot-bg.png' %})no-repeat center right">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-10">
@@ -595,13 +595,13 @@
                             <div class="row justify-content-lg-start mt-60">
                                 <h6 class="text-white-70 mb-2">Our Top Clients:</h6>
                                 <div class="col-4 col-sm-3 my-2 ps-lg-0">
-                                    <img src="assets/img/clients/client-1.svg" alt="client" class="img-fluid">
+                                    <img src="{% static 'assets/img/clients/client-1.svg' %}" alt="client" class="img-fluid">
                                 </div>
                                 <div class="col-4 col-sm-3 my-2">
-                                    <img src="assets/img/clients/client-2.svg" alt="client" class="img-fluid">
+                                    <img src="{% static 'assets/img/clients/client-2.svg' %}" alt="client" class="img-fluid">
                                 </div>
                                 <div class="col-4 col-sm-3 my-2">
-                                    <img src="assets/img/clients/client-3.svg" alt="client" class="img-fluid">
+                                    <img src="{% static 'assets/img/clients/client-3.svg' %}" alt="client" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -611,26 +611,26 @@
                             <!--animated shape start-->
                             <ul class="position-absolute animate-element parallax-element circle-shape-list">
                                 <li class="layer" data-depth="0.03">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-0 hero-1">
+                                    <img src="{% static 'assets/img/shape/circle-1.svg' %}" alt="shape" class="circle-shape-item type-0 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.02">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-1 hero-1">
+                                    <img src="{% static 'assets/img/shape/circle-1.svg' %}" alt="shape" class="circle-shape-item type-1 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.04">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-2 hero-1">
+                                    <img src="{% static 'assets/img/shape/circle-1.svg' %}" alt="shape" class="circle-shape-item type-2 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.04">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-3 hero-1">
+                                    <img src="{% static 'assets/img/shape/circle-1.svg' %}" alt="shape" class="circle-shape-item type-3 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.03">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-4 hero-1">
+                                    <img src="{% static 'assets/img/shape/circle-1.svg' %}" alt="shape" class="circle-shape-item type-4 hero-1">
                                 </li>
                                 <li class="layer" data-depth="0.03">
-                                    <img src="assets/img/shape/circle-1.svg" alt="shape" class="circle-shape-item type-5 hero-1">
+                                    <img src="{% static 'assets/img/shape/circle-1.svg' %}" alt="shape" class="circle-shape-item type-5 hero-1">
                                 </li>
                             </ul>
                             <!--animated shape end-->
-                            <img src="assets/img/hero-1.png" alt="hero img" class="img-fluid position-relative z-5">
+                            <img src="{% static 'assets/img/hero-1.png' %}" alt="hero img" class="img-fluid position-relative z-5">
                         </div>
                     </div>
                 </div>
@@ -695,7 +695,7 @@
                                 <a href="request-demo.html" class="btn btn-outline-primary btn-sm">Start For Free</a>
                             </div>
                             <div class="cta-img position-absolute right-0 bottom-0">
-                                <img src="assets/img/cta-img-1.png" alt="cta img" class="img-fluid">
+                                <img src="{% static 'assets/img/cta-img-1.png' %}" alt="cta img" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -709,7 +709,7 @@
                                 <a href="request-demo.html" class="btn btn-outline-primary btn-sm">Start For Free</a>
                             </div>
                             <div class="cta-img position-absolute right-0 bottom-0">
-                                <img src="assets/img/cta-img-2.png" alt="cta img" class="img-fluid">
+                                <img src="{% static 'assets/img/cta-img-2.png' %}" alt="cta img" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -743,7 +743,7 @@
                     </div>
                     <div class="col-lg-6 col-12">
                         <div class="feature-img-holder mt-4 mt-lg-0 mt-xl-0">
-                            <img src="assets/img/screen/widget-11.png" class="img-fluid" alt="feature-image">
+                            <img src="{% static 'assets/img/screen/widget-11.png' %}" class="img-fluid" alt="feature-image">
                         </div>
                     </div>
                 </div>
@@ -769,7 +769,7 @@
                     </div>
                     <div class="col-lg-6 col-12 order-lg-0">
                         <div class="feature-img-holder mt-4 mt-lg-0 mt-xl-0">
-                            <img src="assets/img/screen/widget-12.png" class="img-fluid" alt="feature-image">
+                            <img src="{% static 'assets/img/screen/widget-12.png' %}" class="img-fluid" alt="feature-image">
                         </div>
                     </div>
                 </div>
@@ -797,7 +797,7 @@
                                 <div class="row align-items-center justify-content-between">
                                     <div class="col-lg-6 col-md-6">
                                         <div class="testimonial-tab-content mb-5 mb-lg-0 mb-md-0">
-                                            <img src="assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
+                                            <img src="{% static 'assets/img/testimonial/quotes-left.svg' %}" alt="testimonial quote" width="65" class="img-fluid mb-32">
                                             <div class="blockquote-title-review mb-4">
                                                 <h3 class="mb-0 h4 fw-semi-bold">The Best Template You Got to Have it!</h3>
                                                 <ul class="review-rate mb-0 list-unstyled list-inline">
@@ -829,7 +829,7 @@
                                     <div class="col-lg-5 col-md-6">
                                         <div class="author-img-wrap pt-5 ps-5">
                                             <div class="testimonial-video-wrapper position-relative">
-                                                <img src="assets/img/testimonial/t-1.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
+                                                <img src="{% static 'assets/img/testimonial/t-1.jpg' %}" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
                                                 <div class="customer-info text-white d-flex align-items-center">
                                                     <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="video-icon popup-youtube text-decoration-none"><i class="fas fa-play"></i> <span class="text-white ms-2 small"> Watch Video</span></a>
                                                 </div>
@@ -843,7 +843,7 @@
                                 <div class="row align-items-center justify-content-between">
                                     <div class="col-lg-6 col-md-6">
                                         <div class="testimonial-tab-content mb-5 mb-lg-0 mb-md-0">
-                                            <img src="assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
+                                            <img src="{% static 'assets/img/testimonial/quotes-left.svg' %}" alt="testimonial quote" width="65" class="img-fluid mb-32">
                                             <div class="blockquote-title-review mb-4">
                                                 <h3 class="mb-0 h4 fw-semi-bold">Embarrassed by the First Version.</h3>
                                                 <ul class="review-rate mb-0 list-unstyled list-inline">
@@ -873,7 +873,7 @@
                                     <div class="col-lg-5 col-md-6">
                                         <div class="author-img-wrap pt-5 ps-5">
                                             <div class="testimonial-video-wrapper position-relative">
-                                                <img src="assets/img/testimonial/t-2.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
+                                                <img src="{% static 'assets/img/testimonial/t-2.jpg' %}" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
                                                 <div class="customer-info text-white d-flex align-items-center">
                                                     <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="video-icon popup-youtube text-decoration-none"><i class="fas fa-play"></i> <span class="text-white ms-2 small"> Watch Video</span></a>
                                                 </div>
@@ -887,7 +887,7 @@
                                 <div class="row align-items-center justify-content-between">
                                     <div class="col-lg-6 col-md-6">
                                         <div class="testimonial-tab-content mb-5 mb-lg-0 mb-md-0">
-                                            <img src="assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
+                                            <img src="{% static 'assets/img/testimonial/quotes-left.svg' %}" alt="testimonial quote" width="65" class="img-fluid mb-32">
                                             <div class="blockquote-title-review mb-4">
                                                 <h3 class="mb-0 h4 fw-semi-bold">Amazing DigitalOne template!</h3>
                                                 <ul class="review-rate mb-0 list-unstyled list-inline">
@@ -919,7 +919,7 @@
                                     <div class="col-lg-5 col-md-6">
                                         <div class="author-img-wrap pt-5 ps-5">
                                             <div class="testimonial-video-wrapper position-relative">
-                                                <img src="assets/img/testimonial/t-3.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
+                                                <img src="{% static 'assets/img/testimonial/t-3.jpg' %}" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
                                                 <div class="customer-info text-white d-flex align-items-center">
                                                     <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="video-icon popup-youtube text-decoration-none"><i class="fas fa-play"></i> <span class="text-white ms-2 small"> Watch Video</span></a>
                                                 </div>
@@ -933,7 +933,7 @@
                                 <div class="row align-items-center justify-content-between">
                                     <div class="col-lg-6 col-md-6">
                                         <div class="testimonial-tab-content mb-5 mb-lg-0 mb-md-0">
-                                            <img src="assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
+                                            <img src="{% static 'assets/img/testimonial/quotes-left.svg' %}" alt="testimonial quote" width="65" class="img-fluid mb-32">
                                             <div class="blockquote-title-review mb-4">
                                                 <h3 class="mb-0 h4 fw-semi-bold">Best Template for SAAS Company!</h3>
                                                 <ul class="review-rate mb-0 list-unstyled list-inline">
@@ -963,7 +963,7 @@
                                     <div class="col-lg-5 col-md-6">
                                         <div class="author-img-wrap pt-5 ps-5">
                                             <div class="testimonial-video-wrapper position-relative">
-                                                <img src="assets/img/testimonial/t-4.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
+                                                <img src="{% static 'assets/img/testimonial/t-4.jpg' %}" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
                                                 <div class="customer-info text-white d-flex align-items-center">
                                                     <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="video-icon popup-youtube text-decoration-none"><i class="fas fa-play"></i> <span class="text-white ms-2 small"> Watch Video</span></a>
                                                 </div>
@@ -977,7 +977,7 @@
                                 <div class="row align-items-center justify-content-between">
                                     <div class="col-lg-6 col-md-6">
                                         <div class="testimonial-tab-content mb-5 mb-lg-0 mb-md-0">
-                                            <img src="assets/img/testimonial/quotes-left.svg" alt="testimonial quote" width="65" class="img-fluid mb-32">
+                                            <img src="{% static 'assets/img/testimonial/quotes-left.svg' %}" alt="testimonial quote" width="65" class="img-fluid mb-32">
                                             <div class="blockquote-title-review mb-4">
                                                 <h3 class="mb-0 h4 fw-semi-bold">It is Undeniably Good!</h3>
                                                 <ul class="review-rate mb-0 list-unstyled list-inline">
@@ -1007,7 +1007,7 @@
                                     <div class="col-lg-5 col-md-6">
                                         <div class="author-img-wrap pt-5 ps-5">
                                             <div class="testimonial-video-wrapper position-relative">
-                                                <img src="assets/img/testimonial/t-5.jpg" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
+                                                <img src="{% static 'assets/img/testimonial/t-5.jpg' %}" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
                                                 <div class="customer-info text-white d-flex align-items-center">
                                                     <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg" class="video-icon popup-youtube text-decoration-none"><i class="fas fa-play"></i> <span class="text-white ms-2 small"> Watch Video</span></a>
                                                 </div>
@@ -1026,7 +1026,7 @@
                             <li class="nav-item" role="presentation">
                                 <div class="nav-link d-flex align-items-center rounded-custom border border-light border-2 testimonial-tab-link active" data-bs-toggle="pill" data-bs-target="#testimonial-tab-1" role="tab" aria-selected="false">
                                     <div class="testimonial-thumb me-3">
-                                        <img src="assets/img/testimonial/1.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
+                                        <img src="{% static 'assets/img/testimonial/1.jpg' %}" width="50" class="rounded-circle" alt="testimonial thumb">
                                     </div>
                                     <div class="author-info">
                                         <h6 class="mb-0">Joe Richard</h6>
@@ -1037,7 +1037,7 @@
                             <li class="nav-item" role="presentation">
                                 <div class="nav-link d-flex align-items-center rounded-custom border border-light border-2 testimonial-tab-link" data-bs-toggle="pill" data-bs-target="#testimonial-tab-2" role="tab" aria-selected="false">
                                     <div class="testimonial-thumb me-3">
-                                        <img src="assets/img/testimonial/2.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
+                                        <img src="{% static 'assets/img/testimonial/2.jpg' %}" width="50" class="rounded-circle" alt="testimonial thumb">
                                     </div>
                                     <div class="author-info">
                                         <h6 class="mb-0">Rupan Oberoi</h6>
@@ -1049,7 +1049,7 @@
                             <li class="nav-item" role="presentation">
                                 <div class="nav-link d-flex align-items-center rounded-custom border border-light border-2 testimonial-tab-link" data-bs-toggle="pill" data-bs-target="#testimonial-tab-3" role="tab" aria-selected="false">
                                     <div class="testimonial-thumb me-3">
-                                        <img src="assets/img/testimonial/3.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
+                                        <img src="{% static 'assets/img/testimonial/3.jpg' %}" width="50" class="rounded-circle" alt="testimonial thumb">
                                     </div>
                                     <div class="author-info">
                                         <h6 class="mb-0">Jon Doe</h6>
@@ -1060,7 +1060,7 @@
                             <li class="nav-item" role="presentation">
                                 <div class="nav-link d-flex align-items-center rounded-custom border border-light border-2 testimonial-tab-link" data-bs-toggle="pill" data-bs-target="#testimonial-tab-4" role="tab" aria-selected="false">
                                     <div class="testimonial-thumb me-3">
-                                        <img src="assets/img/testimonial/4.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
+                                        <img src="{% static 'assets/img/testimonial/4.jpg' %}" width="50" class="rounded-circle" alt="testimonial thumb">
                                     </div>
                                     <div class="author-info">
                                         <h6 class="mb-0">Hanry Luice</h6>
@@ -1071,7 +1071,7 @@
                             <li class="nav-item" role="presentation">
                                 <div class="nav-link d-flex align-items-center rounded-custom border border-light border-2 testimonial-tab-link" data-bs-toggle="pill" data-bs-target="#testimonial-tab-5" role="tab" aria-selected="true">
                                     <div class="testimonial-thumb me-3">
-                                        <img src="assets/img/testimonial/5.jpg" width="50" class="rounded-circle" alt="testimonial thumb">
+                                        <img src="{% static 'assets/img/testimonial/5.jpg' %}" width="50" class="rounded-circle" alt="testimonial thumb">
                                     </div>
                                     <div class="author-info">
                                         <h6 class="mb-0">Ami Nijai</h6>
@@ -1102,7 +1102,7 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-5 col-md-12 order-1 order-lg-0">
                         <div class="img-wrap">
-                            <img src="assets/img/office-img-1.jpg" alt="work process" class="img-fluid rounded-custom">
+                            <img src="{% static 'assets/img/office-img-1.jpg' %}" alt="work process" class="img-fluid rounded-custom">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 order-0 order-lg-1">
@@ -1229,7 +1229,7 @@
 
                             <!--pattern start-->
                             <div class="dot-shape-bg position-absolute z--1 left--40 bottom--40">
-                                <img src="assets/img/shape/dot-big-square.svg" alt="shape">
+                                <img src="{% static 'assets/img/shape/dot-big-square.svg' %}" alt="shape">
                             </div>
                             <!--pattern end-->
                         </div>
@@ -1277,7 +1277,7 @@
 
                             <!--pattern start-->
                             <div class="dot-shape-bg position-absolute z--1 right--40 top--40">
-                                <img src="assets/img/shape/dot-big-square.svg" alt="shape">
+                                <img src="{% static '/img/shape/dot-big-square.svg' %}" alt="shape">
                             </div>
                             <!--pattern end-->
                         </div>
@@ -1318,7 +1318,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="text-center mt-4 mt-lg-0 mt-md-0">
-                            <img src="assets/img/faq.svg" alt="faq" class="img-fluid">
+                            <img src="{% static 'assets/img/faq.svg' %}" alt="faq" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -1333,23 +1333,23 @@
                     <div class="col-lg-3">
                         <div class="integration-list-wrap">
                             <a href="integration-single.html" class="integration-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Your Brand Name">
-                                <img src="assets/img/integations/1.png" alt="integration" class="img-fluid rounded-circle">
+                                <img src="{% static 'assets/img/integations/1.png' %}" alt="integration" class="img-fluid rounded-circle">
                             </a>
                             <a href="integration-single.html" class="integration-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Your Brand Name">
-                                <img src="assets/img/integations/2.png" alt="integration" class="img-fluid rounded-circle">
+                                <img src="{% static 'assets/img/integations/2.png' %}" alt="integration" class="img-fluid rounded-circle">
                             </a>
                             <a href="integration-single.html" class="integration-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Your Brand Name">
-                                <img src="assets/img/integations/3.png" alt="integration" class="img-fluid rounded-circle">
+                                <img src="{% static 'assets/img/integations/3.png' %}" alt="integration" class="img-fluid rounded-circle">
                             </a>
 
                             <a href="integration-single.html" class="integration-4" data-bs-toggle="tooltip" data-bs-placement="top" title="Your Brand Name">
-                                <img src="assets/img/integations/4.png" alt="integration" class="img-fluid rounded-circle">
+                                <img src="{% static 'assets/img/integations/4.png' %}" alt="integration" class="img-fluid rounded-circle">
                             </a>
                             <a href="integration-single.html" class="integration-5" data-bs-toggle="tooltip" data-bs-placement="top" title="Your Brand Name">
-                                <img src="assets/img/integations/5.png" alt="integration" class="img-fluid rounded-circle">
+                                <img src="{% static 'assets/img/integations/5.png' %}" alt="integration" class="img-fluid rounded-circle">
                             </a>
                             <a href="integration-single.html" class="integration-6" data-bs-toggle="tooltip" data-bs-placement="top" title="Your Brand Name">
-                                <img src="assets/img/integations/6.png" alt="integration" class="img-fluid rounded-circle">
+                                <img src="{% static 'assets/img/integations/6.png' %}" alt="integration" class="img-fluid rounded-circle">
                             </a>
                         </div>
                     </div>
@@ -1364,23 +1364,23 @@
                         <div class="col-lg-4">
                             <div class="integration-list-wrap">
                                 <a href="integration-single.html" class="integration-7" data-bs-toggle="tooltip" data-bs-placement="top" title="Your Brand Name">
-                                    <img src="assets/img/integations/7.png" alt="integration" class="img-fluid rounded-circle">
+                                    <img src="{% static 'assets/img/integations/7.png' %}" alt="integration" class="img-fluid rounded-circle">
                                 </a>
                                 <a href="integration-single.html" class="integration-8" data-bs-toggle="tooltip" data-bs-placement="top" title="Your Brand Name">
-                                    <img src="assets/img/integations/8.png" alt="integration" class="img-fluid rounded-circle">
+                                    <img src="{% static 'assets/img/integations/8.png' %}" alt="integration" class="img-fluid rounded-circle">
                                 </a>
                                 <a href="integration-single.html" class="integration-9" data-bs-toggle="tooltip" data-bs-placement="top" title="Your Brand Name">
-                                    <img src="assets/img/integations/9.png" alt="integration" class="img-fluid rounded-circle">
+                                    <img src="{% static 'assets/img/integations/9.png' %}" alt="integration" class="img-fluid rounded-circle">
                                 </a>
 
                                 <a href="integration-single.html" class="integration-10" data-bs-toggle="tooltip" data-bs-placement="top" title="Your Brand Name">
-                                    <img src="assets/img/integations/10.png" alt="integration" class="img-fluid rounded-circle">
+                                    <img src="{% static 'assets/img/integations/10.png' %}" alt="integration" class="img-fluid rounded-circle">
                                 </a>
                                 <a href="integration-single.html" class="integration-11" data-bs-toggle="tooltip" data-bs-placement="top" title="Your Brand Name">
-                                    <img src="assets/img/integations/11.png" alt="integration" class="img-fluid rounded-circle">
+                                    <img src="{% static 'assets/img/integations/11.png' %}" alt="integration" class="img-fluid rounded-circle">
                                 </a>
                                 <a href="integration-single.html" class="integration-12" data-bs-toggle="tooltip" data-bs-placement="top" title="Your Brand Name">
-                                    <img src="assets/img/integations/12.png" alt="integration" class="img-fluid rounded-circle">
+                                    <img src="{% static 'assets/img/integations/12.png' %}" alt="integration" class="img-fluid rounded-circle">
                                 </a>
                             </div>
                         </div>
@@ -1391,7 +1391,7 @@
                         <a href="integration-single.html" class="mb-4 mb-lg-0 mb-xl-0 position-relative text-decoration-none connected-app-single border border-light border-2 rounded-custom d-block overflow-hidden p-5">
                             <div class="position-relative connected-app-content">
                                 <div class="integration-logo bg-custom-light rounded-circle p-2 d-inline-block">
-                                    <img src="assets/img/integations/4.png" width="40" alt="integration" class="img-fluid">
+                                    <img src="{% static 'assets/img/integations/4.png' %}" width="40" alt="integration" class="img-fluid">
                                 </div>
                                 <h5>Google Drive</h5>
                                 <p class="mb-0 text-body">Competently generate unique e-services and client-based models.
@@ -1405,7 +1405,7 @@
                         <a href="integration-single.html" class="position-relative text-decoration-none connected-app-single border border-light border-2 rounded-custom d-block overflow-hidden p-5">
                             <div class="position-relative connected-app-content">
                                 <div class="integration-logo bg-custom-light rounded-circle p-2 d-inline-block">
-                                    <img src="assets/img/integations/9.png" width="40" alt="integration" class="img-fluid">
+                                    <img src="{% static 'assets/img/integations/9.png' %}" width="40" alt="integration" class="img-fluid">
                                 </div>
                                 <h5>Google Drive</h5>
                                 <p class="mb-0 text-body">Globally engage tactical niche markets rather than client-based
@@ -1466,14 +1466,14 @@
         <footer class="footer-section">
             <!--footer top start-->
             <!--for light footer add .footer-light class and for dark footer add .bg-dark .text-white class-->
-            <div class="footer-top  bg-gradient text-white ptb-120" style="background: url('assets/img/page-header-bg.svg')no-repeat bottom right">
+            <div class="footer-top  bg-gradient text-white ptb-120" style="background: url('{% static 'assets/img/page-header-bg.svg' %}' )no-repeat bottom right">
                 <div class="container">
                     <div class="row justify-content-between">
                         <div class="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
                             <div class="footer-single-col">
                                 <div class="footer-single-col mb-4">
-                                    <img src="assets/img/logo-white.png" alt="logo" class="img-fluid logo-white">
-                                    <img src="assets/img/logo-color.png" alt="logo" class="img-fluid logo-color">
+                                    <img src="{% static 'assets/img/logo-white.png' %}" alt="logo" class="img-fluid logo-white">
+                                    <img src="{% static 'assets/img/logo-color.png' %}" alt="logo" class="img-fluid logo-color">
                                 </div>
                                 <p>Our latest news, articles, and resources, we will sent to
                                     your inbox weekly.</p>
@@ -1575,8 +1575,6 @@
         <!--footer section end-->
 
     </div>
-
-
 
     <!--build:js-->
     <script src="{% static 'assets/js/vendors/jquery-3.6.0.min.js' %}"></script>
