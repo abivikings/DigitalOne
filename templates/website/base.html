@@ -11,14 +11,14 @@
     <meta name="twitter:site" content="@themetags">
     <meta name="twitter:creator" content="@themetags">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="DigitalOne - Creative SAAS Technology & IT Solutions Bootstrap 5 HTML Template">
-    <meta name="twitter:description" content="DigitalOne creative Saas, software technology, Saas agency & business Bootstrap 5 Html template. It is best and famous software company and Saas website template.">
+    <meta name="twitter:title" content="DigitalOne - Creative SAAS RFID Based Technology & IT Solutions">
+    <meta name="twitter:description" content="DigitalOne creative Saas, software technology, Saas agency & business  . It is best and famous software company and Saas RFID Based">
     <meta name="twitter:image" content="#">
 
     <!--facebook og-->
     <meta property="og:url" content="#">
-    <meta name="twitter:title" content="DigitalOne - Creative SAAS Technology & IT Solutions Bootstrap 5 HTML Template">
-    <meta property="og:description" content="DigitalOne creative Saas, software technology, Saas agency & business Bootstrap 5 Html template. It is best and famous software company and Saas website template.">
+    <meta name="twitter:title" content="DigitalOne - Creative SAAS Technology & IT Solutions">
+    <meta property="og:description" content="DigitalOne creative Saas, software technology, Saas agency & business  . It is best and famous RFID Solution Based software company and Saas">
     <meta property="og:image" content="#">
     <meta property="og:image:secure_url" content="#">
     <meta property="og:image:type" content="image/png">
@@ -26,14 +26,14 @@
     <meta property="og:image:height" content="600">
 
     <!--meta-->
-    <meta name="description" content="DigitalOne creative Saas, software technology, Saas agency & business Bootstrap 5 Html template. It is best and famous software company and Saas website template.">
+    <meta name="description" content="DigitalOne creative Saas, software technology, Saas agency & business  . It is best and famous RFID Solution Based software company and Saas">
     <meta name="author" content="ThemeTags">
 
     <!--favicon icon-->
-    <link rel="icon" href="{% static 'assets/img/favicon.png' %}" type="image/png" sizes="16x16">
+    <link rel="icon" href="{% static 'assets/img/main_logo.png' %}" type="image/png" sizes="16x16">
 
     <!--title-->
-    <title>DigitalOne - Software & IT Solutions HTML Template</title>
+    <title>DigitalOne - RFID Based Software & IT Solutions </title>
 
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -53,7 +53,7 @@
     <!--preloader start-->
     <div id="preloader">
         <div class="preloader-wrap">
-            <img src="{% static 'assets/img/favicon.png' %}" alt="logo" class="img-fluid preloader-icon" />
+            <img src="{% static 'assets/img/main_logo.png' %}" alt="logo" class="img-fluid preloader-icon" />
             <div class="loading-bar"></div>
         </div>
     </div>
@@ -78,9 +78,13 @@
                     <div class="collapse navbar-collapse justify-content-center">
                         <ul class="nav col-12 col-md-auto justify-content-center main-menu">
                             <li><a href="{% url 'home' %}" class="nav-link">Home</a></li>
+                            <li><a href="{% url 'app_suite' %}" class="nav-link">DOne Features</a></li>
                             <li><a href="{% url 'app_suite' %}" class="nav-link">DOne RFID App Suite</a></li>
                             <li><a href="{% url 'about_us' %}" class="nav-link">About Us</a></li>
                             <li><a href="{% url 'contact_us' %}" class="nav-link">Contact Us</a></li>
+                            {% if user.is_authenticated %}
+                                <li><a href="{% url 'accounts:signin' %}" class="btn btn-warning">Check Meeting</a></li>
+                            {% endif %}
                         </ul>
                     </div>
 
@@ -362,13 +366,8 @@
                                     <p class="mb-0">1 Yonge St, Suite 1201</p>
                                     <p class="mb-0">Toronto, ON M5E 1E5, </p>
                                     <p class="mb-0">Canada</p>
-                                    <ul class="list-unstyled rating-list list-inline mb-0">
-                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
-                                    </ul>
+                                    <br>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.26185899102!2d-79.37631418450258!3d43.642719979121665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb295c914011%3A0xc4bef5a15eb4bc4!2s1%20Yonge%20St%20%231201%2C%20Toronto%2C%20ON%20M5E%201E5%2C%20Canada!5e0!3m2!1sen!2sbd!4v1643548858056!5m2!1sen!2sbd" width="400" height="250" style="border:2;" allowfullscreen="" loading="lazy"></iframe>
                                 </div>
                             </div>
                         </div>
