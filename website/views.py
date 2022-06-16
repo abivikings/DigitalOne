@@ -16,3 +16,7 @@ def ContactUs(request):
 
 def AppSuite(request):
     return render(request, 'website/app_suite.html')
+
+
+def ESL(request):
+    return render(request, 'website/esl.html')
